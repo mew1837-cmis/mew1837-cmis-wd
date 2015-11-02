@@ -4,7 +4,7 @@ Open Terminal by clicking the black square icon on the panel along the bottom of
 1. Type these commands (after typing commands, press enter, replace your-network-username:your-network-password with your actual network username and password, do the same for your-github-username/your-github-repository-name.git):
 git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git
 2. Type these commands:
-cd your-github-repository-name.git (e.g. cd mew1837-cmis-wd)
+cd your-github-repository-name.git (e.g. cd mew1837-cmis-wd.git)
 3. Type these commands:
 gedit new-filename.txt (a gedit window will popup)
 4. edit file in the window as required and save by pressing ctrl+s
