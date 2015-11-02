@@ -1,0 +1,23 @@
+How to create a new file and put it into your repository
+
+Open Terminal by clicking the black square icon on the panel along the bottom of the screen
+1. Type these commands (after typing commands, press enter, replace your-network-username:your-network-password with your actual network username and password, do the same for your-github-username/your-github-repository-name.git):
+git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git
+2. Type these commands:
+cd your-github-repository-name.git (e.g. cd mew1837-cmis-wd)
+3. Type these commands:
+gedit new-filename.txt (a gedit window will popup)
+4. edit file in the window as required and save by pressing ctrl+s
+5. close the gedit window by clicking the X in the corner of the window
+6. Type these commands:
+git add new-filename.txt
+7. Type these commands:
+git commit -m "commit message" (the commit message can be anything you want)
+8. Type these commands:
+git push
+9. Type in your username for https://github.com
+10. Type in your password for https://github.com
+11. Go to your github repository to ensure your new file is there.
+
+
+
