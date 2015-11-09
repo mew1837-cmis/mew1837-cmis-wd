@@ -1,0 +1,24 @@
+h1{
+	background-color: #000090;
+	color: red;
+	font-family: "Arial";
+	font-size: 50px;
+}
+h2{
+	background-color: #b0c4de;
+	color: orange;
+	font-family: "Arial";
+	font-size: 40px;
+}
+p{
+	background-color: #b999de;
+	color: yellow;
+	font-family: "Arial";
+	font-size: 20px;
+}
+footer{
+	background-color: #7777de;
+	color: green;
+	font-family: "Arial";
+	font-size: 20px;
+}
