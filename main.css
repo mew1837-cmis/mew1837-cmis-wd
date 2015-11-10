@@ -1,24 +1,52 @@
+/*
+Requirements
+
+*Create a new file called "main.css"
+*Add a link element to the head of your index.html file
+*<link rel="stylesheet" href="main.css" type="text/css">
+*Edit the main.css file
+*add a declaration for each element in the body of your index.html file.
+*add properties to style the background color of each element.
+*add properties to style the border of each element.
+*add properties to style the font of each element.
+*View your index.html in the development server.
+*Validate your index.html file.
+*Validate your main.css file.
+*Copy this list of requirements and paste it into your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
+*Upload to the production server with sftp.
+*View your index.html in the production server.
+*/
+body{
+	background-color: green;
+	background-image: url("images.jpg");
+}
 h1{
 	background-color: #000090;
-	color: red;
+	color: #CC33FF;
 	font-family: "Arial";
 	font-size: 50px;
+	border-style: dashed;
 }
 h2{
-	background-color: #b0c4de;
-	color: orange;
-	font-family: "Arial";
+	background-color: yellow;
+	color: #006600;
+	font-family: "Verdana";
 	font-size: 40px;
+	border-color: #CC33FF;
+	border-style: groove;
 }
 p{
 	background-color: #b999de;
 	color: yellow;
-	font-family: "Arial";
+	font-family: "Helvetica";
 	font-size: 20px;
+	font-variant:small-caps;
+	border-style: ridge;
 }
 footer{
-	background-color: #7777de;
-	color: green;
+	background-color: red;
+	color: #003300;
 	font-family: "Arial";
 	font-size: 20px;
+	border-style: dotted;
 }
