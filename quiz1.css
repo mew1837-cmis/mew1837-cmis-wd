@@ -1,0 +1,109 @@
+body{
+}
+header{
+	background-color: red;
+}
+main{
+	border-style: inset;
+	border-width: 5px;
+	border-left-color: orange;
+	border-right-color: orange;
+	border-top-color: none;
+	border-bottom-color: white;
+	border-top-width: 0px;
+	border-left-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 10px;
+}
+h1{
+	background-color: green;
+	color: yellow;
+	text-align: left;
+	font-family: "Arial";
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: -1px;
+	border-style: dashed;
+	border-color: yellow;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+}
+h3{
+	background-color: red;
+	color: blue;
+	font-family: "Arial";
+	font-size: 15px;
+	font-style:italic;
+	font-weight: bold;
+	border-style: dashed;
+	border-color: yellow;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 10px;
+}
+h2{
+	background-color: purple;
+	color: yellow;
+	font-family: "Arial";
+	font-size: 20px;
+}
+h4{
+	background-color: yellow;
+	color: purple;
+	font-family: "Arial";
+	font-size: 15px;
+	border-style: dashed;
+	border-width: 0px;
+	border-top-width: 2px;
+}
+h5{
+	background-color: yellow;
+	color: purple;
+	font-family: "Arial";
+	font-size: 15px;
+	border-style: dashed;
+	border-width: 0px;
+	border-top-width: 2px;
+}
+h2{
+	background-color: purple;
+	color: yellow;
+	font-family: "Arial";
+	font-size: 20px;
+}
+p2{
+	background-color: none;
+	color: blue;
+	font-family: "Helvetica";
+	font-size: 15px;
+	border-style: none;
+	border-width: 7px;
+}
+p3{
+	background-color: none;
+	color: blue;
+	font-family: "Helvetica";
+	font-size: 15px;
+	border-style: none;
+	border-width: 7px;
+}
+footer{
+	background-color: none;
+	color: blue;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	border-width: 0px;
+	border-top-color: black;
+	border-top-style: dashed;
+	border-top-width: 1px;
+	border-left-color: red;
+	border-left-style: solid;
+	border-left-width: 7px;
+	border-right-style: blue;
+	border-right-style: solid;
+	border-right-width: 7px;
+}
