@@ -1,0 +1,46 @@
+body{
+	background-color: green;
+	background-image: url("images.jpg");
+}
+main{
+	border-style:outset;
+	border-width: 20px;
+	border-left-color:red;
+	border-right-color:orange;
+	border-top-color:green;
+	border-bottom-color:black blue;
+}
+h1{
+	background-color: #000090;
+	color: #CC33FF;
+	font-family: "Arial";
+	font-size: 50px;
+	border-style: dotted solid;
+	border-top-width: 0px;
+}
+h2{
+	background-color: yellow;
+	color: #006600;
+	font-family: "Verdana";
+	font-size: 40px;
+	border-color: #CC33FF;
+	border-style: groove;
+	border-width: 15px;
+}
+p{
+	background-color: #b999de;
+	color: yellow;
+	font-family: "Helvetica";
+	font-size: 20px;
+	font-variant:small-caps;
+	border-style: ridge;
+	border-width: 7px;
+	
+}
+footer{
+	background-color: red;
+	color: #003300;
+	font-family: "Arial";
+	font-size: 20px;
+	border-style: dotted;
+}
