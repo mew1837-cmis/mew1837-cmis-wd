@@ -38,3 +38,6 @@ http://cmis-hsteacher/~mew1837/
 CSS Examples (link)
 http://www.w3schools.com/css/css_examples.asp
 
+mkdir make folder
+rmdir remove folder (folder has to be empty)
+
