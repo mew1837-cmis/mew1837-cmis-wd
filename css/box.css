@@ -1,0 +1,25 @@
+.table1{
+    width: 75px;
+    padding: 5px;
+    border: 25px groove navy;
+    margin: 25px;
+	height: 100%;
+	background-color: purple;
+}
+
+.table2{
+    width: 240px;
+    padding: 5px;
+    border: 25px outset yellow;
+    margin: 25px;
+	height: 100%;
+	background-color: red;
+}
+.table3{
+    width: 150px;
+    padding: 5px;
+    border: 25px groove green;
+    margin: 25px;
+	height: 100%;
+	background-color: gray;
+}
