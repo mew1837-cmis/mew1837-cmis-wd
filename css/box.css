@@ -1,4 +1,4 @@
-.table1{
+h2 ~ table{
     width: 75px;
     padding: 5px;
     border: 25px groove navy;
@@ -6,20 +6,41 @@
 	height: 100%;
 	background-color: purple;
 }
-
-.table2{
-    width: 240px;
-    padding: 5px;
-    border: 25px outset yellow;
+main ol{
+    width: 300px;
+    padding: 25px;
+    border: solid yellow;
+	border-width: 0px 25px 0px 25px;
     margin: 25px;
 	height: 100%;
 	background-color: red;
+    background: #ff9999;
 }
-.table3{
-    width: 150px;
+main ul{
+    width: 300px;
     padding: 5px;
-    border: 25px groove green;
+    border: 25px outset red;
     margin: 25px;
 	height: 100%;
-	background-color: gray;
+	background-color: yellow;
+}
+li > ul{
+    width: 300px;
+    padding: 5px;
+    border-width: 25px 0px 25px 25px;
+	border-style: dotted solid dotted solid;
+	border-color: gray;
+	list-style-image: url("../listsandlinks/heart_validator.png");
+    margin: 25px;
+	height: 100%;
+	background-color: blue;
+	color: orange;
+}
+h1 ~ ul{
+    width: 300px;
+    padding: 25px;
+    border: 25px dashed green;
+    margin: 35px;
+	height: 100%;
+	background-color: orange;
 }

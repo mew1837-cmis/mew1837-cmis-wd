@@ -18,7 +18,7 @@ Requirements
 */
 body{
 	background-color: green;
-	background-image: url("images.jpg");
+	background-image: url("listsandlinks/images.jpg");
 }
 main{
 	border-style:outset;
