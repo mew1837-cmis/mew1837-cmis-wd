@@ -1,11 +1,3 @@
-h2 + table{
-    width: 275px;
-    padding: 10px;
-    border: 25px groove navy;
-    margin: 25px;
-	height: 100%;
-	background-color: purple;
-}
 table, th, td{
 	border: 1px solid black;
 }
@@ -20,6 +12,18 @@ table thead{
 table tfoot{
 	color: gray;
 	background-color: brown;
+}
+h2 + table{
+    width: 275px;
+    padding: 15px;
+    border: 25px outset navy;
+    margin: 25px;
+	height: 100%;
+	background-color: indigo;
+}
+h1{
+}
+h2{
 }
 main ol{
     width: 300px;
