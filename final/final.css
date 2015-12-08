@@ -1,0 +1,29 @@
+*{
+	outline: dotted red 1px;
+}
+body{
+}
+nav{
+	float:left;
+	width:200px;
+}
+main{
+	margin-left:201px;
+}
+img.left{
+	float:left;
+}
+img.right{
+	float:right;
+}
+h1{
+}
+h2{
+}
+p{
+}
+article{
+}
+footer{
+	clear:both;
+}
