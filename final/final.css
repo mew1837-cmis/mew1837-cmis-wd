@@ -8,13 +8,43 @@ nav{
 	width:200px;
 }
 main{
-	margin-left:201px;
+	margin: 41px 0 0 201px;
 }
 img.left{
 	float:left;
+	margin: 0 25px 60px 0;
 }
 img.right{
 	float:right;
+	margin: 0 0 60px 10px;
+}
+a:hover{
+	background-color:yellow;
+}
+br.clear{
+	clear:both;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+	width: 184px;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
 h1{
 }
@@ -23,6 +53,8 @@ h2{
 p{
 }
 article{
+	background-color:teal;
+	
 }
 footer{
 	clear:both;
